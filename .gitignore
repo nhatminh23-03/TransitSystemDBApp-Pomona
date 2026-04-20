@@ -1,0 +1,14 @@
+.DS_Store
+*.class
+
+# VS Code Java workspace files
+.classpath
+.project
+.settings/
+
+# Build output
+out/
+bin/
+
+# Local environment files
+*.log
