@@ -8,7 +8,6 @@ A Java 17 Swing desktop application for a database systems lab. The app uses JDB
 - Swing
 - JDBC
 - MySQL
-- VS Code friendly project structure
 
 ## Project Structure
 
@@ -177,17 +176,3 @@ java -cp "lib/*;src" pomonatransit.Main
 - `ActualArrivalTime`: `07:32:00`
 - `NumberOfPassengerIn`: `8`
 - `NumberOfPassengerOut`: `0`
-
-## Notes
-
-- Date format: `YYYY-MM-DD`
-- Time format: `HH:MM:SS`
-- Some delete actions may be blocked when related records already exist, which is expected because of foreign key constraints.
-- The GUI shows database connection status in the header when the app starts.
-
-## GitHub Push Checklist
-
-- Update the database password in `DBConnection.java` before running locally.
-- Do not commit personal passwords or machine-specific secrets.
-- Keep compiled `.class` files out of the repo.
-- Commit `schema.sql`, `test_data.sql`, source code, and documentation.
